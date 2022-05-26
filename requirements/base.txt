@@ -10,7 +10,7 @@ django-timezone-field==4.0  # https://github.com/celery/django-celery-beat/pull/
 git+https://github.com/mher/flower.git@e64ceb0cbda515ee9dceb862a8c4b27d253d4800#egg=flower
 uvicorn[standard]==0.12.2 # https://github.com/encode/uvicorn
 gunicorn==20.0.4  # https://github.com/benoitc/gunicorn
-uuid==1.301
+uuid==1.30
 python-magic==0.4.18
 Markdown==3.3.3
 bleach==3.2.1
