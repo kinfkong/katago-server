@@ -7,7 +7,7 @@ django-celery-beat==2.1.0  # https://github.com/celery/django-celery-beat
 django-timezone-field==4.0  # https://github.com/celery/django-celery-beat/pull/378
 # flower==0.9.5  # https://github.com/mher/flower
 # For unreleased healthcheck endpoint
-git+git://github.com/mher/flower@e64ceb0cbda515ee9dceb862a8c4b27d253d4800#egg=flower
+git+https://github.com/mher/flower.git@e64ceb0cbda515ee9dceb862a8c4b27d253d4800#egg=flower
 uvicorn[standard]==0.12.2 # https://github.com/encode/uvicorn
 gunicorn==20.0.4  # https://github.com/benoitc/gunicorn
 uuid==1.30
