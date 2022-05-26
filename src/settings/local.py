@@ -11,7 +11,7 @@ SECRET_KEY = env(
     default="p1W1xKG857D5npN0z2xqLSUvJa6alacjSdejkYES6gtjTCNfRWMZYRugtKXePoe5",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "*"]
 
 # Dummy "site" domain for cookiecutters migration, which populates the "sites" db on the very first migration after
 # the site is built with these values, which is used in a production setting for full absolute URL building and
